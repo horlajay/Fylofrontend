@@ -140,12 +140,12 @@
   font-size: 11px; 
   text-align: center;
  }
-.attribution a { 
-  color: hsl(228, 45%, 44%);
+ .attribution a { 
+   color: hsl(228, 45%, 44%);
  }
 
-@media (max-width: 768px) {
-  .body {
+ @media (max-width: 375px) {
+   .body {
     background: url(./images/bg-mobile.svg);
     width: 375px;
     height: 90vh;
@@ -157,6 +157,7 @@
   .first-box {
     width: 300px;
     height: 170px;
+    border-radius: 10px 70px 10px 10px;
   }
   .second-box {
     width: 300px;
@@ -165,6 +166,7 @@
     margin-top: 10px;
     padding-top: 10px;
     align-content: center;
+    border-radius: 10px;
   }
   .gauge {
     width: 85%;
